@@ -333,3 +333,87 @@ overflow-y: scroll;
 .Img-time img:hover{
   transform: scale(1.1);
 }
+#Telefone {
+  width: 24.5vh;
+  border-radius: 10px;
+    background-color: white; 
+      color: black;
+      padding: 2.3px 3px;
+      border: none;
+      cursor: pointer;
+      font-size: none;
+      transition: background-color 0.3s ease;
+}
+#Telefone:active {
+transform: scale(0.98); 
+  border: 2px white solid;
+  box-shadow: 0px 0px 5px white;
+}
+#nome{
+  width: 26.5vh;
+  border-radius: 10px;
+    background-color: white; 
+      color: black;
+      padding: 2.3px 3px;
+      border: none;
+      cursor: pointer;
+      font-size: none;
+      transition: background-color 0.3s ease;
+}
+    #nome:active {
+      transform: scale(0.98); 
+       border: 2px white solid;
+      box-shadow: 0px 0px 5px white;
+    }
+#Email{
+  width: 26.3vh;
+  border-radius: 10px;
+    background-color: white; 
+      color: black;
+      padding: 2.3px 3px;
+      border: none;
+      cursor: pointer;
+      font-size: none;
+      transition: background-color 0.3s ease;
+}
+.titulos{
+ font-size: 1.5vh;
+}
+#Mensagem{
+  background-color: white; 
+      color: black;
+      padding: 2.3px 3px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: none;
+      transition: background-color 0.3s ease;
+      width: 31.5vh;
+}
+    #Mensagem:active {
+      transform: scale(0.98); 
+      border: 2px white solid;
+      box-shadow: 0px 0px 5px white;
+    }
+ #Enviar {
+      background-color: white; 
+      color: black;
+      padding: 2.3px 3px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+      width: 31.5vh;
+    }
+
+    #Enviar:hover {
+      background-color: black; 
+      color: white;
+    }
+
+    #Enviar:active {
+      transform: scale(0.98); 
+      border: 2px white solid;
+      box-shadow: 0px 0px 5px white;
+    }
